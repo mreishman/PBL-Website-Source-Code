@@ -1,0 +1,903 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/2014_pbl_temp_b.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../CSS/styles.css" media="screen" /> 
+<link rel="stylesheet" type="text/css" href="../CSS/cssAnimations.css" media="screen" /> 
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:700italic,400,300' rel='stylesheet' type='text/css'>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>SEMO PBL | Meeting Notes</title>
+<!-- InstanceEndEditable -->
+
+
+
+
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="../js/smoothscroll.js"></script>
+<script type="text/javascript" src="../js/backToTop.js"></script>
+<script type="text/javascript">
+    function hideClass()
+    {
+        document.getElementById("leftBar").className = "Hideblock";
+		document.getElementById("show").className = "show-sidebar";
+		document.getElementById("hide").className = "hide-sidebar";
+    }
+
+	function showClass()
+    {
+        document.getElementById("leftBar").className = "Showblock blurBG";
+		document.getElementById("show").className = "hide-sidebar";
+		document.getElementById("hide").className = "show-sidebar";
+		
+    }
+
+   function showFeedbackBar()
+	{
+		document.getElementById("feedbackBar").className = "feedbackBar blurBG";
+		document.getElementById("showFeedbackBar").className = "hide-feedbackBar";
+		document.getElementById("hideFeedbackBar").className = "show-feedbackBar";	
+	}
+	
+	function hideFeedbackBar()
+	{
+		document.getElementById("feedbackBar").className = "feedbackBarHide";
+		document.getElementById("showFeedbackBar").className = "show-feedbackBar";
+		document.getElementById("hideFeedbackBar").className = "hide-feedbackBar";	
+	}
+	
+	
+	function showFooterBar()
+	{
+		document.getElementById("footerBar").className = "footerBarShow blurBG";
+		document.getElementById("showFooterBar").className = "hide-footerBar";
+		document.getElementById("hideFooterBar").className = "show-footerBar";	
+	}
+	
+	function hideFooterBar()
+	{
+		document.getElementById("footerBar").className = "footerBarHide";
+		document.getElementById("showFooterBar").className = "show-footerBar";
+		document.getElementById("hideFooterBar").className = "hide-footerBar";	
+	}
+	
+
+    window.onload = function()
+    {
+        document.getElementById("hide").addEventListener( 'click' , hideClass );
+		document.getElementById("show").addEventListener( 'click' , showClass );
+		document.getElementById("showFeedbackBar").addEventListener( 'click' , showFeedbackBar);
+		document.getElementById("hideFeedbackBar").addEventListener( 'click' , hideFeedbackBar);
+		document.getElementById("showFooterBar").addEventListener( 'click' , showFooterBar);
+		document.getElementById("hideFooterBar").addEventListener( 'click' , hideFooterBar);
+    }
+</script>
+</head>
+
+ <!-- InstanceBeginEditable name="bodyTag" --><body> <!-- InstanceEndEditable --> 
+
+<div class="upperBar blurBG">
+
+<div id="upperBarCenter">
+<ul id="nav">
+					<li> <a href="../index.html"><img src="../images/Top_logo.png" width="150" height="36" alt=""/></a></li>
+                   <!-- InstanceBeginEditable name="Home" --> <li> <!-- InstanceEndEditable --><a href="../index.html" >Home</a></li>
+                   <!-- InstanceBeginEditable name="About" --> <li class="active"> <!-- InstanceEndEditable --><a href="../about.html" id="aboutHover">About</a> </li>
+                   <!-- InstanceBeginEditable name="Events" --> <li> <!-- InstanceEndEditable --><a href="../Events.html" >Events</a></li>
+                   <!-- InstanceBeginEditable name="Members" --> <li> <!-- InstanceEndEditable --><a href="../BoardMembers.html" >Board Members</a></li>
+                   
+                         
+ </ul>  
+ </div> 
+ <div id="upperBarCenterMobile">
+ <table width="100%">
+ <tr>
+ <td align="left" width="50%">
+   <a href="../index.html"><img src="../images/Top_logo.png" class="logo_top" height="auto" alt=""/></a>
+   </td>
+ <td align="right"  width="50%">
+<div class="nav-toggle pull-right ">
+	<a class="show-sidebar" id="show" > <!-- href="#" -->
+    	<span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </a>
+    <a class="hide-sidebar" id="hide"> <!-- href="#" -->
+    	<span class="icon-bar-top"></span>
+        <span class="icon-bar-mid"></span>
+        <span class="icon-bar-bot"></span>
+    </a>
+</div> 
+ </td>
+</tr>
+</table> 
+ </div>               
+</div>
+<div id="leftBar" class="Hideblock ">
+
+<ul id="nav">
+					<li style="height:300px;"> <a href="../Index.html"><img src="../Images/Logo2.png" class="Logo_Side" height="auto" alt=""/></a></li>
+                   <li> <a href="../index.html" >Home</a></li>
+                    <li id="LeftHeightIndex">
+                    <ul id="nav">
+                    <li class="activeSub">
+                    <a href="../About.html">About</a>
+                    </li>
+                    <li class="navSub">
+                    <a href="meetingNotes.html" >Minutes</a>
+                    </li> 
+                    <li class="navSub">
+                    <a href="../Documents/Constitution.html">Constitution</a> 
+                    </li>
+                    <li class="navSub">
+                    <a href="../socialMedia.html">Social Media</a>
+                    </li> 
+                    <li class="navSub">
+                    <a href="../CommentCard.html">Comment Card</a>
+                    </li> 
+                    </ul>
+                    
+                    </li>
+                   <li> <a href="../events.html" >Events</a></li>
+                   <li> <a href="../BoardMembers.html" >Board Members</a></li>
+                         
+ </ul>
+</div>
+
+
+
+<div class="upperBarTwo blurBG">
+    <div id="upperBarCenterTwo">
+    <ul id="nav">
+    <li class="navSub">
+    <a href="../About.html">About</a>
+    </li>
+    <li class="activeSub">
+    <a href="meetingNotes.html" >Minutes</a>
+    </li> 
+    <li class="navSub">
+    <a href="../Documents/Constitution.html">Constitution</a> 
+    </li>
+    <!-- <li class="navSub">
+    <a href="https://www.facebook.com/pblsoutheast" target="_blank">Facebook</a> 
+    </li>
+    <li class="navSub">
+    <a href="https://twitter.com/SEMOPBL">Twitter</a>
+    </li>  -->
+    <li class="navSub">
+    <a href="../socialMedia.html">Social Media</a>
+    </li> 
+    <li class="navSub">
+    <a href="../CommentCard.html">Comment Card</a>
+    </li> 
+    </ul>
+    
+    </div>
+    
+    </div>
+
+
+
+
+
+
+
+<div id="aboutTable">
+
+
+
+
+
+ <div class="sidebarLeft blurBG" >
+    <table style="background: rgba(50,50,110,.95);" width="100%">
+    <tr height="100px">
+    <th>
+    </th>
+    </tr>
+    </table>
+	<div id="fixed">
+        <h2 align="center" style="margin-top:0px;">Dates</h2>        
+    </div>
+    <div id="scrollable" style="color:black;">
+         <table style="font-size:135%" width="100%" align="center">
+        <tr>
+        	<th>
+            
+            
+            
+            
+            <ul id="minTable">
+                	
+					 
+                      <!-- InstanceBeginEditable name="12716Active" -->
+					<li> <!-- InstanceEndEditable --> 
+                    	<a href="meetingNotes.html">1/27/16</a>
+                    </li>
+                     
+                      <!-- InstanceBeginEditable name="12215Active" -->
+					<li> <!-- InstanceEndEditable --> 
+                    	<a href="2015122.html">12/2/15</a>
+                    </li>
+                     
+                     <!-- InstanceBeginEditable name="111815Active" -->
+					<li> <!-- InstanceEndEditable --> 
+                    	<a href="20151118.html">11/18/15</a>
+                    </li>
+                     
+                     <!-- InstanceBeginEditable name="11415Active" -->
+					<li> <!-- InstanceEndEditable --> 
+                    	<a href="2015114.html">11/4/15</a>
+                    </li>
+                   
+                    <!-- InstanceBeginEditable name="102115Active" -->
+					<li> <!-- InstanceEndEditable --> 
+                    	<a href="20151021.html">10/21/15</a>
+                    </li>
+                   
+                   
+                    <!-- InstanceBeginEditable name="10715Active" -->
+					<li> <!-- InstanceEndEditable --> 
+                    	<a href="2015107.html">10/7/15</a>
+                    </li>
+                    
+                    
+                    <!-- InstanceBeginEditable name="9915Active" -->
+					<li class="active"> <!-- InstanceEndEditable --> 
+                    	<a href="2015923.html">9/23/15</a>
+                    </li>
+                    
+                    
+                    <!-- InstanceBeginEditable name="82715Active" -->
+					<li > <!-- InstanceEndEditable --> 
+                    	<a href="201599.html"> 9/9/15 </a>
+                    </li>
+                    
+                </ul>
+            
+            
+            </th>
+         </tr>
+         </table>
+       
+    </div>
+     <table style="background-color:rgba(50,50,110,.95);" width="100%">
+    <tr height="1000px">
+    <th>
+    </th>
+    </tr>
+    </table>
+</div>
+
+
+
+
+
+
+    <table style="font-size:135%" width="95%" align="center">
+        <tr height="75px;">
+        	<td width="280px">
+            </td>
+            <td>
+            </td>
+        </tr>
+         <tr height="75px;">
+        	<th>
+            </th>
+            <th>
+            	<h1>
+                	Meeting Notes
+                </h1>
+            </th>
+        </tr>
+        <tr>
+        	<th>
+            	
+            </th>
+            <td style="vertical-align:top;">
+            <!-- Dont forget to update mobile version too -->
+            <!-- InstanceBeginEditable name="MeetingNotes" -->
+			
+			
+			
+			
+			
+			<h2 align="center">SOUTHEAST MISSOURI STATE UNIVERSITY</h2>
+<h2 align="center">PHI BETA LAMBDA</h2>
+
+<h3 align="center">Minutes September 23, 2015</h3>
+
+<p align="left"><b>Call to Order</b></p>
+
+<p align="left">The chapter meeting of Phi Beta Lambda, Zeta Alpha Lambda Chapter was called to order on Wednesday, September 23, 2015, 7:36 p.m. President Cory Herzog called the meeting to order with Secretary Dylan Kennedy recording the minutes.</p>
+
+<p align="left"><b>Attendance</b></p>
+
+<p align="left">Roll was taken by Secretary Dylan Kennedy via sign-in sheet.</p>
+
+<p align="left"><b>Treasurer’s Report</b></p>
+
+<p align="left">Treasurer Rebecca Ott reported a chapter balance as of September 23, 2015, of $4,065.34. The report was filed.</p>
+
+<p align="left"><b>Unfinished Business</b></p>
+
+<p align="left">None</p>
+
+<p align="left"><b>New Business</b></p>
+
+<p align="left">President Cory Herzog announced Field Day is coming up on October 12, 2015, at 7:00 p.m. with the Spirit Rally to take place right after at 8:00 p.m. Individuals who signed up for Field Day include:</p>
+
+<table width="100%" border="1px">
+<tr>
+<th>
+<p>
+Tug-of-War
+</p>
+</th>
+<th>
+<p>
+Donut Challenge
+</p>
+</th>
+<th>
+<p>
+Musical Chairs
+</p>
+</th>
+<th>
+<p>
+Game of Life
+</p>
+</th>
+</tr>
+<tr>
+<td>
+<ul>
+<li>
+<p>
+Cassie Robertson
+</p>
+</li>
+<li>
+<p>
+Sara Carney	
+</p>
+</li>
+<li>
+<p>
+Kiana Samuel
+</p>
+</li>
+<li>
+<p>
+Brandon Szarek	
+</p>
+</li>
+<li>
+<p>
+Cass Wiseman
+</p>
+</li>
+<li>
+<p>
+Ben Zimmer (maybe)
+</p>
+</li>
+<li>
+<p>
+Matt Rolwing (maybe)
+</p>
+</li>
+<li>
+<p>
+Tyreek Williams
+</p>
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+<p>
+Ben Zimmer
+</p>
+</li>
+<li>
+<p>
+Dylan Kennedy
+</p>
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+<p>
+Valecious Andreius
+</p>
+</li>
+<li>
+<p>
+Alona Ivchenko
+</p>
+</li>
+<li>
+<p>
+Dazza Rutcheako 
+</p>
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+<p>
+Maxim Van Deursen (maybe)
+</p>
+</li>
+<li>
+<p>
+Brandon Szarek
+</p>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+<p align="left">***Two more participants are needed for the Donut Challenge</p>
+<p align="left"> If you cannot make it to this, you must find a replacement by Friday, October 2, 2015. </p>
+<p align="left">Individuals signed up for the Spirit Rally include: </p>
+<ul>
+<li>
+<p>
+Dylan Kennedy
+</p>
+</li>
+<li>
+<p>
+Joe Allison 
+</p>
+</li>
+<li>
+<p>
+Anna Richter
+</p>
+</li>
+<li>
+<p>
+Kyle Amuleke
+</p>
+</li>
+<li>
+<p>
+Matt Rolwing
+</p>
+</li>
+<li>
+<p>
+Misaki Makino
+</p>
+</li>
+</ul>
+
+<p align="left">***Two more individuals are able to participate in this dance. You MUST contact Secretary, Dylan Kennedy by Wednesday, September 30, 2015, if interested. </p>
+
+<p align="left">President Cory Herzog announced the National Fall Leadership Conference will be November 6-7, 2015, in Omaha, Nebraska. It is $60 for registration by October 9, 2015. Fundraisers will be going on in order to help pay for this trip.</p>
+
+<p align="left">Secretary Dylan Kennedy announced the Show-Me Leadership Conference at Six Flags will be October 10, 2015. The dues of $49 were due. </p>
+
+<p align="left">Treasurer Rebecca Ott announced to pay dues of $50/year or $30/semester to her.</p>
+
+<p align="left">Reporter Matt Reishman showed two designs for homecoming shirts. The designs were voted on and the shirts will be long-sleeve orange with a large hippo design on the back and a small front pocket design of PBL on the front. </p>
+
+<p align="left">Membership chair Tyreek Williams announced a tailgate at the football game on Saturday, September 26, 2015. Members are to meet at 10:30 am outside Houck Stadium.</p>
+
+<p align="left">Fundraiser chair Andrew Crutcher announced $199.20 was raised at the car wash that was partnered with Jimmy’s Friends. $50 of the proceeds will go to Jimmy’s Friends. </p>
+
+<p align="left">Fundraiser chair Andrew Crutcher announced a Beef O’Brady’s fundraiser will be on Saturday, October 31, 2015. Tickets of $6 each will be sold. Proceeds will go towards members’ goals for NFLC.</p>
+
+<p align="left">
+Community Service chair Melissa Stephens announced a Trick-or-Treat for cans will be Wednesday, October 28, 2015.
+</p>
+
+<p align="left">Community Service chair Melissa Stephens announced the March of Dimes mini-walk will be November 11, 2015 at Scott County Central high school.</p>
+
+<p align="left">A homecoming committee was formed. They will meet and start locking down parade ideas. Each PBL member will be required to work 2 hours a week on homecoming designs. </p>
+
+<p align="left">Dylan Kennedy moved to reimburse Cory Herzog $177.57 for the PBL handouts for recruitment. The motion was seconded and approved.</p>
+
+<p align="left">Rebecca Ott moved to reimburse Tyreek Williams $54.95 for candy during opening week events. The motion was seconded and approved.</p>
+
+<p align="left">Dylan Kennedy moved to reimburse Rebecca Ott $9.91 for photos for the informational board and treasurer expenses. The motion was seconded and approved.</p>
+
+<p align="left"><b>Announcements</b></p>
+
+<p align="left">The next chapter meeting will be Wednesday, October 7, 2015.  </p>
+
+<p align="left"><b>Adjournment</b></p>
+
+<p align="left">There being no further business, the meeting was adjourned at 8:22 p.m. </p>
+
+
+
+<p align="left">Dylan Kennedy, Secretary</p>
+
+
+<table>
+<tr height="100px">
+<tr>
+</tr>
+</tr>
+</table>
+
+			
+			
+			
+			
+			<!-- InstanceEndEditable --> 
+            
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div id="aboutTableSmall">
+
+<table style="font-size:135%" width="95%" align="center">
+        <tr height="50px;">
+            <td>
+            </td>
+        </tr>
+         <tr height="75px;">
+        	<th>
+                <h1>
+                	Date
+                </h1>
+            </th>
+        </tr>
+        <tr>
+        	<th style="vertical-align:top;">
+            	
+                <select onchange="location = this.options[this.selectedIndex].value;" style="min-width:70%">
+                	<option>Please select a date</option>
+                    <option value="201599.html">9/9/15</option>
+                   <option value="2015923.html">9/23/15</option>
+                    <option value="2015107.html">10/7/15</option> 
+                    <option value="20151021.html">10/21/15</option> 
+                    <option value="2015114.html">11/4/15</option> 
+                     <option value="20151118.html">11/18/15</option> 
+                     <option value="2015122.html">12/2/15</option> 
+                     <option value="meetingNotes.html">1/27/16</option> 
+                	
+                </select>
+                
+            </th>
+        </tr>
+        <tr>
+        	<th>
+            	<h1>
+                	Meeting Notes
+                </h1>
+            </th>
+        </tr>
+        <tr>
+            <td style="vertical-align:top;">
+            
+            <!-- InstanceBeginEditable name="MeetingNotesSmall" -->
+			
+			
+			
+			
+			
+			
+			<h2 align="center">SOUTHEAST MISSOURI STATE UNIVERSITY</h2>
+<h2 align="center">PHI BETA LAMBDA</h2>
+
+<h3 align="center">Minutes September 23, 2015</h3>
+
+<p align="left"><b>Call to Order</b></p>
+
+<p align="left">The chapter meeting of Phi Beta Lambda, Zeta Alpha Lambda Chapter was called to order on Wednesday, September 23, 2015, 7:36 p.m. President Cory Herzog called the meeting to order with Secretary Dylan Kennedy recording the minutes.</p>
+
+<p align="left"><b>Attendance</b></p>
+
+<p align="left">Roll was taken by Secretary Dylan Kennedy via sign-in sheet.</p>
+
+<p align="left"><b>Treasurer’s Report</b></p>
+
+<p align="left">Treasurer Rebecca Ott reported a chapter balance as of September 23, 2015, of $4,065.34. The report was filed.</p>
+
+<p align="left"><b>Unfinished Business</b></p>
+
+<p align="left">None</p>
+
+<p align="left"><b>New Business</b></p>
+
+<p align="left">President Cory Herzog announced Field Day is coming up on October 12, 2015, at 7:00 p.m. with the Spirit Rally to take place right after at 8:00 p.m. Individuals who signed up for Field Day include:</p>
+
+<table width="100%" border="1px">
+<tr>
+<th>
+<p>
+Tug-of-War
+</p>
+</th>
+<th>
+<p>
+Donut Challenge
+</p>
+</th>
+<th>
+<p>
+Musical Chairs
+</p>
+</th>
+<th>
+<p>
+Game of Life
+</p>
+</th>
+</tr>
+<tr>
+<td>
+<ul>
+<li>
+<p>
+Cassie Robertson
+</p>
+</li>
+<li>
+<p>
+Sara Carney	
+</p>
+</li>
+<li>
+<p>
+Kiana Samuel
+</p>
+</li>
+<li>
+<p>
+Brandon Szarek	
+</p>
+</li>
+<li>
+<p>
+Cass Wiseman
+</p>
+</li>
+<li>
+<p>
+Ben Zimmer (maybe)
+</p>
+</li>
+<li>
+<p>
+Matt Rolwing (maybe)
+</p>
+</li>
+<li>
+<p>
+Tyreek Williams
+</p>
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+<p>
+Ben Zimmer
+</p>
+</li>
+<li>
+<p>
+Dylan Kennedy
+</p>
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+<p>
+Valecious Andreius
+</p>
+</li>
+<li>
+<p>
+Alona Ivchenko
+</p>
+</li>
+<li>
+<p>
+Dazza Rutcheako 
+</p>
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+<p>
+Maxim Van Deursen (maybe)
+</p>
+</li>
+<li>
+<p>
+Brandon Szarek
+</p>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+<p align="left">***Two more participants are needed for the Donut Challenge</p>
+<p align="left"> If you cannot make it to this, you must find a replacement by Friday, October 2, 2015. </p>
+<p align="left">Individuals signed up for the Spirit Rally include: </p>
+<ul>
+<li>
+<p>
+Dylan Kennedy
+</p>
+</li>
+<li>
+<p>
+Joe Allison 
+</p>
+</li>
+<li>
+<p>
+Anna Richter
+</p>
+</li>
+<li>
+<p>
+Kyle Amuleke
+</p>
+</li>
+<li>
+<p>
+Matt Rolwing
+</p>
+</li>
+<li>
+<p>
+Misaki Makino
+</p>
+</li>
+</ul>
+
+<p align="left">***Two more individuals are able to participate in this dance. You MUST contact Secretary, Dylan Kennedy by Wednesday, September 30, 2015, if interested. </p>
+
+<p align="left">President Cory Herzog announced the National Fall Leadership Conference will be November 6-7, 2015, in Omaha, Nebraska. It is $60 for registration by October 9, 2015. Fundraisers will be going on in order to help pay for this trip.</p>
+
+<p align="left">Secretary Dylan Kennedy announced the Show-Me Leadership Conference at Six Flags will be October 10, 2015. The dues of $49 were due. </p>
+
+<p align="left">Treasurer Rebecca Ott announced to pay dues of $50/year or $30/semester to her.</p>
+
+<p align="left">Reporter Matt Reishman showed two designs for homecoming shirts. The designs were voted on and the shirts will be long-sleeve orange with a large hippo design on the back and a small front pocket design of PBL on the front. </p>
+
+<p align="left">Membership chair Tyreek Williams announced a tailgate at the football game on Saturday, September 26, 2015. Members are to meet at 10:30 am outside Houck Stadium.</p>
+
+<p align="left">Fundraiser chair Andrew Crutcher announced $199.20 was raised at the car wash that was partnered with Jimmy’s Friends. $50 of the proceeds will go to Jimmy’s Friends. </p>
+
+<p align="left">Fundraiser chair Andrew Crutcher announced a Beef O’Brady’s fundraiser will be on Saturday, October 31, 2015. Tickets of $6 each will be sold. Proceeds will go towards members’ goals for NFLC.</p>
+
+<p align="left">
+Community Service chair Melissa Stephens announced a Trick-or-Treat for cans will be Wednesday, October 28, 2015.
+</p>
+
+<p align="left">Community Service chair Melissa Stephens announced the March of Dimes mini-walk will be November 11, 2015 at Scott County Central high school.</p>
+
+<p align="left">A homecoming committee was formed. They will meet and start locking down parade ideas. Each PBL member will be required to work 2 hours a week on homecoming designs. </p>
+
+<p align="left">Dylan Kennedy moved to reimburse Cory Herzog $177.57 for the PBL handouts for recruitment. The motion was seconded and approved.</p>
+
+<p align="left">Rebecca Ott moved to reimburse Tyreek Williams $54.95 for candy during opening week events. The motion was seconded and approved.</p>
+
+<p align="left">Dylan Kennedy moved to reimburse Rebecca Ott $9.91 for photos for the informational board and treasurer expenses. The motion was seconded and approved.</p>
+
+<p align="left"><b>Announcements</b></p>
+
+<p align="left">The next chapter meeting will be Wednesday, October 7, 2015.  </p>
+
+<p align="left"><b>Adjournment</b></p>
+
+<p align="left">There being no further business, the meeting was adjourned at 8:22 p.m. </p>
+
+
+
+<p align="left">Dylan Kennedy, Secretary</p>
+
+
+<table>
+<tr height="100px">
+<tr>
+</tr>
+</tr>
+</table>
+			
+			
+			
+			<!-- InstanceEndEditable --> 
+            
+            </td>
+        </tr>
+    </table>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" class="back-to-top" id="blurBG" style="color:#FFFFFF;">Back to Top</a>
+<div id="footerBar" class="footerBarHide">
+
+<h1 align="center"><a href="http://www.2point5dproductions.com">Designed by 2.5D Productions</a> </h1>
+<h1 align="center"><a href="../ChangeLog.html">Last Updated 10/20/2015</a> </h1> <!-- dont forget desktop version -->
+<h3 align="center">If you want to leave feedback, please either send an email or fill out the form. Thanks!</h3>
+  <table width="100%" align="center" style="max-width:1200px;">
+    
+        <tr>
+        
+        	<th width="50%">
+            <a href="mailto:mjreishman1s@semo.edu"><img class="fade" src="../Images/feedbackEmail.png" width="128" height="auto" alt="Email"/> </a>
+            </th>
+            <th width="50%">
+            <a href="CommentCard.html"><img class="fade" src="../Images/feedbackForm.png" width="128" height="auto" alt="Form"/></a>
+            </th>
+        
+        </tr>
+    
+    </table>   
+</div>  
+
+
+
+
+
+<div id="feedbackBar" class="feedbackBarHide">
+ 	
+    
+    <h1 align="center"> If you want to leave feedback, please choose the option to send an email or fill out the form. </h1>
+    
+    <table width="100%" align="center" style="max-width:1200px;">
+    
+        <tr>
+        
+        	<th width="50%">
+            <a href="mailto:mjreishman1s@semo.edu"><img class="fade" src="../Images/feedbackEmail.png" width="128" height="auto" alt="Email"/> </a>
+            </th>
+            <th width="50%">
+            <a href="CommentCard.html"><img class="fade" src="../Images/feedbackForm.png" width="128" height="auto" alt="Form"/></a>
+            </th>
+        
+        </tr>
+    
+    </table>
+    
+    <h2 align="center"> Thank you for taking the time to submit feedback on the website </h2>
+	</div>	
+
+
+
+<div class="lowerBar blurBG" id="feedback">
+<p  id="lowerBarMain" align="center"><a href="http://www.2point5dproductions.com">Designed by 2.5D Productions</a> | <a href="../ChangeLog.html">Last Updated 10/20/2015</a> <!-- dont forget to update mobile --> | <a  class="show-feedbackBar" id="showFeedbackBar">Leave feedback on the website</a> <a class="hide-feedbackBar" id="hideFeedbackBar">Close feedback</a></p>
+<p id="lowerBarMobile" align="center">
+<a id="showFooterBar" class="show-footerBar">Click For More Info</a><a id="hideFooterBar" class="hide-footerBar">Close Footer</a> <!-- href="#"  -->
+</p>
+</div>
+</body>
+<!-- InstanceEnd --></html>

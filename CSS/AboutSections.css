@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+section {
+box-sizing: border-box;
+height: 43vh;
+text-align: center;
+padding: 2vw;
+
+font-size:250%;
+
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+
+section:nth-of-type(even) {
+	border-top:#FFFFFF thin solid;
+	box-shadow: 0 0 15px #FFFFFF;
+	-webkit-box-shadow 0 0 30 #FFFFFF;
+	-moz-box-shadow 0 0 30 #FFFFFF;
+	border-bottom:#FFFFFF thin solid;
+
+}
+
+section:nth-of-type(1) {
+background-image: url(../Images/About2.jpg);
+}
+
+section:nth-of-type(4) {
+height: 70vh;
+}
+
+section:nth-of-type(3) {
+background-image: url(../Images/About1.jpg);
+height: 52vh;
+}
+
+section:nth-of-type(4){
+	height: 80vh;	
+}
+
+section:nth-of-type(5) {
+background-image: url(../Images/About3.jpg);
+height: 52vh;
+}
+
+section:nth-of-type(6) {
+height: 30vh;
+}
+
+section:nth-of-type(7) {
+background-image: url(../Images/About2.jpg);
+}
+
+
+
+
+@media only screen and (max-width:800px) 
+{
+	
+section{
+	height: 60vh;
+	font-size:200%;
+	background-attachment:scroll;
+	background-repeat:repeat;
+	background-size:cover;
+	
+}
+
+section:nth-of-type(4){
+	height: 70vh;	
+}
+
+	
+}
+
+
+@media only screen and (max-device-width:480px) and (-webkit-min-device-pixel-ratio: 1.5)
+{ 
+
+section{
+	height: 60vh;
+	font-size:200%;
+	background-attachment:scroll;
+	background-repeat:repeat;
+	background-size:cover;
+	
+}
+
+section:nth-of-type(4){
+	height: 100vh;	
+}
+
+
+}
+
+@media only screen and (orientation: landscape) and (max-device-width:1024px) and (min-device-width:768px)
+{
+	section{
+	height: 60vh;
+	font-size:200%;
+	min-height:200px;
+	background-attachment:scroll;
+	background-repeat:repeat;
+	-webkit-background-size:cover;
+	-moz-background-size: cover;
+	background-size:cover;
+	
+}
+}
+
+@media only screen and (orientation: portrait) and (max-device-width:1024px) and (min-device-width:768px)
+{
+	section{
+	height: 40vh;
+	font-size:200%;
+	min-height:200px;
+	background-attachment:scroll;
+	background-repeat:repeat;
+	-webkit-background-size:cover;
+	-moz-background-size: cover;
+	background-size:cover;
+	
+}
+}

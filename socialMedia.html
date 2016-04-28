@@ -1,0 +1,410 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/2014_pbl_temp.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="CSS/styles.css" media="screen" /> 
+<link rel="stylesheet" type="text/css" href="CSS/cssAnimations.css" media="screen" /> 
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:700italic,400,300' rel='stylesheet' type='text/css'>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>SEMO PBL | Social Media</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/smoothscroll.js"></script>
+<script type="text/javascript" src="js/backToTop.js"></script>
+<script type="text/javascript">
+    function hideClass()
+    {
+        document.getElementById("leftBar").className = "Hideblock";
+		document.getElementById("show").className = "show-sidebar";
+		document.getElementById("hide").className = "hide-sidebar";
+    }
+
+	function showClass()
+    {
+        document.getElementById("leftBar").className = "Showblock blurBG";
+		document.getElementById("show").className = "hide-sidebar";
+		document.getElementById("hide").className = "show-sidebar";
+		
+    }
+
+   function showFeedbackBar()
+	{
+		document.getElementById("feedbackBar").className = "feedbackBar blurBG";
+		document.getElementById("showFeedbackBar").className = "hide-feedbackBar";
+		document.getElementById("hideFeedbackBar").className = "show-feedbackBar";	
+	}
+	
+	function hideFeedbackBar()
+	{
+		document.getElementById("feedbackBar").className = "feedbackBarHide";
+		document.getElementById("showFeedbackBar").className = "show-feedbackBar";
+		document.getElementById("hideFeedbackBar").className = "hide-feedbackBar";	
+	}
+	
+	
+	function showFooterBar()
+	{
+		document.getElementById("footerBar").className = "footerBarShow blurBG";
+		document.getElementById("showFooterBar").className = "hide-footerBar";
+		document.getElementById("hideFooterBar").className = "show-footerBar";	
+	}
+	
+	function hideFooterBar()
+	{
+		document.getElementById("footerBar").className = "footerBarHide";
+		document.getElementById("showFooterBar").className = "show-footerBar";
+		document.getElementById("hideFooterBar").className = "hide-footerBar";	
+	}
+	
+
+    window.onload = function()
+    {
+        document.getElementById("hide").addEventListener( 'click' , hideClass );
+		document.getElementById("show").addEventListener( 'click' , showClass );
+		document.getElementById("showFeedbackBar").addEventListener( 'click' , showFeedbackBar);
+		document.getElementById("hideFeedbackBar").addEventListener( 'click' , hideFeedbackBar);
+		document.getElementById("showFooterBar").addEventListener( 'click' , showFooterBar);
+		document.getElementById("hideFooterBar").addEventListener( 'click' , hideFooterBar);
+    }
+</script>
+</head>
+
+ <!-- InstanceBeginEditable name="bodyTag" --><body style="background-color:#3b5998;"> <!-- InstanceEndEditable --> 
+
+<div class="upperBar blurBG">
+
+<div id="upperBarCenter">
+<ul id="nav">
+					<li> <a href="index.html"><img src="images/Top_logo.png" width="150" height="36" alt=""/></a></li>
+                   <!-- InstanceBeginEditable name="Home" --> <li> <!-- InstanceEndEditable --><a href="index.html" >Home</a></li>
+                   <!-- InstanceBeginEditable name="About" --> <li class="active"> <!-- InstanceEndEditable --><a href="about.html" id="aboutHover">About</a> </li>
+                   <!-- InstanceBeginEditable name="Events" --> <li> <!-- InstanceEndEditable --><a href="Events.html" >Events</a></li>
+                   <!-- InstanceBeginEditable name="Members" --> <li> <!-- InstanceEndEditable --><a href="BoardMembers.html" >Board Members</a></li>
+                   
+                         
+ </ul>  
+ </div> 
+ <div id="upperBarCenterMobile">
+ <table width="100%">
+ <tr>
+ <td align="left" width="50%">
+   <a href="index.html"><img src="images/Top_logo.png" class="logo_top" height="auto" alt=""/></a>
+   </td>
+ <td align="right"  width="50%">
+<div class="nav-toggle pull-right ">
+	<a class="show-sidebar" id="show" > <!-- href="#" -->
+    	<span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </a>
+    <a class="hide-sidebar" id="hide"> <!-- href="#" -->
+    	<span class="icon-bar-top"></span>
+        <span class="icon-bar-mid"></span>
+        <span class="icon-bar-bot"></span>
+    </a>
+</div> 
+ </td>
+</tr>
+</table> 
+ </div>               
+</div>
+<div id="leftBar" class="Hideblock ">
+
+<ul id="nav">
+					<li style="height:300px;"> <a href="Index.html"><img src="Images/Logo2.png" class="Logo_Side" height="auto" alt=""/></a></li>
+                   <li> <a href="index.html" >Home</a></li>
+                    <li id="LeftHeightIndex">
+                    <ul id="nav">
+                    <li class="activeSub">
+                    <a href="About.html">About</a>
+                    </li>
+                    <li class="navSub">
+                    <a href="minutes/meetingNotes.html" >Minutes</a>
+                    </li> 
+                    <li class="navSub">
+                    <a href="Documents/Constitution.html">Constitution</a> 
+                    </li>
+                    <li class="navSub">
+                    <a href="socialMedia.html">Social Media</a>
+                    </li> 
+                    <li class="navSub">
+                    <a href="CommentCard.html">Comment Card</a>
+                    </li> 
+                    </ul>
+                    
+                    </li>
+                   <li> <a href="events.html" >Events</a></li>
+                   <li> <a href="BoardMembers.html" >Board Members</a></li>
+                         
+ </ul>
+</div>
+<!-- InstanceBeginEditable name="Body" -->
+
+
+<div class="upperBarTwo blurBG">
+    <div id="upperBarCenterTwo">
+    <ul id="nav">
+    <li class="navSub">
+    <a href="About.html">About</a>
+    </li>
+    <li class="navSub">
+    <a href="minutes/meetingNotes.html" >Minutes</a>
+    </li> 
+    <li class="navSub">
+    <a href="Documents/Constitution.html">Constitution</a> 
+    </li>
+    <!-- <li class="navSub">
+    <a href="https://www.facebook.com/pblsoutheast" target="_blank">Facebook</a> 
+    </li>
+    <li class="navSub">
+    <a href="https://twitter.com/SEMOPBL">Twitter</a>
+    </li>  -->
+    <li class="activeSub">
+    <a href="socialMedia.html">Social Media</a>
+    </li> 
+    <li class="navSub">
+    <a href="CommentCard.html">Comment Card</a>
+    </li> 
+    </ul>
+    
+    </div>
+    
+    </div>
+
+		<div id="aboutTable">
+    
+   
+       
+         
+         
+         
+         
+         
+         
+         
+         <table style="font-size:135%; position:absolute; bottom:0px;" width="100%" height="100%" align="center" cellpadding="0px" cellspacing="0px">
+          
+        
+         <tr style="max-height:500px;">
+            <th style="background-color:#3b5998" id="FacebookPageID" class="facebookPage" width="34%">
+           
+             
+            <a href="https://www.facebook.com/pblsoutheast"  target="_blank"><img src="Images/Facebook.jpg" alt="Facebook" width="150" height="auto" ></a></th>
+           
+            <th style="background-color:#bb0000"  width="33%" id="YoutubeID">
+              
+       	    <a href="https://www.youtube.com/channel/UCvoNKkZ_-_j09jVmddleLkg" target="_blank"><img src="Images/youtube.jpg" alt="Youtube" width="150" height="auto" ></a>
+            </th>
+            
+             <th style="background-color:#00aced"  width="33%" id="TwitterID">
+            
+            
+            
+            <a href="https://twitter.com/SEMOPBL"  target="_blank"><img src="Images/twitter.jpg" alt="Twitter" width="150" height="auto"></a> 
+             
+            </th>
+            
+        </tr> 
+        <tr >
+            <th style="background-color:#3b5998;"> 
+            	<table width="34.1%" height="50%" cellpadding="0" cellspacing="0" style="position: fixed;
+    top: 50%;
+    z-index: 3;	" >
+                 <tr>
+                <th style="text-shadow: 2px 2px #000000;"><a href="https://www.facebook.com/pblsoutheast"  target="_blank"><h3> Facebook</h3> </a>
+           		</th>
+                </tr>
+                </table>
+            	<!-- <table width="20.1%" height="50%" cellpadding="0" cellspacing="0" id="socialFacebookGroupID" class="socialFacebookGroup">
+                 <tr>
+                <th style=" background-color:#3b5998;"> 
+           		</th>
+                </tr>
+                </table>
+                <table width="100%" height="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                <th style=" background-image:url(Images/Social1.jpg); background-size:cover; background-position: center top; ">
+           		</th>
+                </tr>
+                </table> -->
+            </th>
+           
+            
+            <th style="background-color:#bb0000;">
+            <table width="33.1%" height="50%" cellpadding="0" cellspacing="0" style="position: fixed;
+    top: 50%;
+    z-index: 3;	" >
+                 <tr>
+                <th style="text-shadow: 2px 2px #000000; "><a href="https://www.youtube.com/channel/UCvoNKkZ_-_j09jVmddleLkg" target="_blank"><h3>Youtube</h3> </a>
+           		</th>
+                </tr>
+                </table>
+            	<!-- <table width="20.1%" height="50%" cellpadding="0" cellspacing="0" id="socialYoutubeID" class="socialYoutube">
+                 <tr>
+                <th style=" background-color:#bb0000; "> 
+           		</th>
+                </tr>
+                </table>
+                <table width="100%" height="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                <th style=" background-image:url(Images/Social3.jpg); background-size:cover; background-position: center top; ">
+           		</th>
+                </tr>
+                </table> -->
+            </th>
+            
+             <th style="background-color:#00aced;">
+            <table width="33.05%" height="50%" cellpadding="0" cellspacing="0" style="position: fixed;
+    top: 50%;
+    z-index: 3;	" >
+                 <tr>
+                <th style="text-shadow: 2px 2px #000000; "><a href="https://twitter.com/SEMOPBL"  target="_blank"><h3> Twitter</h3> </a>
+           		</th>
+                </tr>
+                </table>
+            	<!-- <table width="20.1%" height="50%" cellpadding="0" cellspacing="0" id="socialTwitterID" class="socialTwitter">
+                 <tr>
+                <th style=" background-color:#00aced; "> 
+           		</th>
+                </tr>
+                </table>
+                <table width="100%" height="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                <th style=" background-image:url(Images/Social2.jpg); background-size:cover; background-position: center top; ">
+           		</th>
+                </tr>
+                </table> -->
+            </th>
+           
+           
+        </tr>
+        </table>
+          
+        </div>
+
+
+
+	   <div id="aboutTableSmall" style="width:100%;" > 
+    
+   
+       
+         
+         
+         
+         
+         
+         
+         
+         <table style="font-size:135%" width="100%" height="100%" align="center" cellpadding="0px" cellspacing="0px">
+         <tr id="socialHeightMobile">
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+          
+         <tr style="background-color:#3b5998" height="320px">
+            <th>
+              
+       	  <a href="https://www.facebook.com/pblsoutheast"  target="_blank"><img src="Images/Facebook.jpg" alt="Facebook" width="150" height="auto" id="Facebook3"></a>
+            </th>
+            <th>
+           <a href="https://www.facebook.com/pblsoutheast"  target="_blank"> Facebook Page </a>
+            </th>
+           
+         </tr>
+         <tr style="background-color:#bb0000" height="320px">
+            
+            
+            <th>
+            <a href="https://www.youtube.com/channel/UCvoNKkZ_-_j09jVmddleLkg" target="_blank"><img src="Images/youtube.jpg" alt="Youtube" width="150" height="auto" id="Youtube2"></a> 
+             
+            </th>
+          	<th>
+            
+            <a href="https://www.youtube.com/channel/UCvoNKkZ_-_j09jVmddleLkg" target="_blank"> Youtube </a>
+            
+            </th>
+          
+          </tr>
+           <tr style="background-color:#00aced" height="320px"> 
+         
+         <th>   
+            <a href="https://twitter.com/SEMOPBL"  target="_blank"><img src="Images/twitter.jpg" alt="Twitter" width="150" height="auto" id="Twitter2"></a> 
+            
+            </th>
+            
+            <th>
+           <a href="https://twitter.com/SEMOPBL"  target="_blank">  Twitter </a>
+            </th>
+            
+            </tr>
+        </table>
+          
+        </div>
+
+
+
+<!-- InstanceEndEditable -->
+
+<a href="#" class="back-to-top" id="blurBG" style="color:#FFFFFF;">Back to Top</a>
+<div id="footerBar" class="footerBarHide">
+
+<h1 align="center"><a href="http://www.2point5dproductions.com">Designed by 2.5D Productions</a> </h1>
+<h1 align="center"><a href="ChangeLog.html">Last Updated 10/20/2015</a> </h1> <!-- dont forget desktop version -->
+<h3 align="center">If you want to leave feedback, please either send an email or fill out the form. Thanks!</h3>
+  <table width="100%" align="center" style="max-width:1200px;">
+    
+        <tr>
+        
+        	<th width="50%">
+            <a href="mailto:mjreishman1s@semo.edu"><img class="fade" src="Images/feedbackEmail.png" width="128" height="auto" alt="Email"/> </a>
+            </th>
+            <th width="50%">
+            <a href="CommentCard.html"><img class="fade" src="Images/feedbackForm.png" width="128" height="auto" alt="Form"/></a>
+            </th>
+        
+        </tr>
+    
+    </table>   
+</div>  
+
+
+
+
+
+<div id="feedbackBar" class="feedbackBarHide">
+ 	
+    
+    <h1 align="center"> If you want to leave feedback, please choose the option to send an email or fill out the form. </h1>
+    
+    <table width="100%" align="center" style="max-width:1200px;">
+    
+        <tr>
+        
+        	<th width="50%">
+            <a href="mailto:mjreishman1s@semo.edu"><img class="fade" src="Images/feedbackEmail.png" width="128" height="auto" alt="Email"/> </a>
+            </th>
+            <th width="50%">
+            <a href="CommentCard.html"><img class="fade" src="Images/feedbackForm.png" width="128" height="auto" alt="Form"/></a>
+            </th>
+        
+        </tr>
+    
+    </table>
+    
+    <h2 align="center"> Thank you for taking the time to submit feedback on the website </h2>
+	</div>	
+
+
+
+<div class="lowerBar blurBG" id="feedback">
+<p  id="lowerBarMain" align="center"><a href="http://www.2point5dproductions.com">Designed by 2.5D Productions</a> | <a href="ChangeLog.html">Last Updated 10/20/2015</a> <!-- dont forget to update mobile --> | <a  class="show-feedbackBar" id="showFeedbackBar">Leave feedback on the website</a> <a class="hide-feedbackBar" id="hideFeedbackBar">Close feedback</a></p>
+<p id="lowerBarMobile" align="center">
+<a id="showFooterBar" class="show-footerBar">Click For More Info</a><a id="hideFooterBar" class="hide-footerBar">Close Footer</a> <!-- href="#"  -->
+</p>
+</div>
+</body>
+<!-- InstanceEnd --></html>
